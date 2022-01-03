@@ -1,0 +1,52 @@
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description {
+  margin: 2rem 0;
+  font-size: 1.6rem;
+  background-color: #f7f7f7;
+  padding: 1rem;
+  border-radius: 10px;
+  font-weight: 400;
+}
+.boxAddCategory {
+  position: relative;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  width: 50rem;
+  height: 5rem;
+  background-color: #f7f7f7;
+  padding: 0 3rem;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+.btn {
+  width: 5rem;
+  height: 5rem;
+  background-color: #fac800;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.boxAddProduct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.select {
+  margin-bottom: 3rem;
+}
+.btnSet {
+  font-size: 2rem;
+}
